@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		3C1A2DD027E482380016B40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DCF27E482380016B40E /* AppDelegate.swift */; };
 		3C1A2DD227E482380016B40E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DD127E482380016B40E /* SceneDelegate.swift */; };
-		3C1A2DD427E482380016B40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DD327E482380016B40E /* ViewController.swift */; };
+		3C1A2DD427E482380016B40E /* NotionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DD327E482380016B40E /* NotionListViewController.swift */; };
 		3C1A2DD727E482380016B40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A2DD527E482380016B40E /* Main.storyboard */; };
 		3C1A2DD927E4823E0016B40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A2DD827E4823E0016B40E /* Assets.xcassets */; };
 		3C1A2DDC27E4823E0016B40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A2DDA27E4823E0016B40E /* LaunchScreen.storyboard */; };
 		3C1A2DE527E484490016B40E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3C1A2DE427E484490016B40E /* Realm */; };
 		3C1A2DE727E484490016B40E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C1A2DE627E484490016B40E /* RealmSwift */; };
+		3C1A2DEA27E4A61F0016B40E /* NotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DE927E4A61F0016B40E /* NotionViewController.swift */; };
+		3C1A2DEE27E4A8690016B40E /* FolderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DED27E4A8690016B40E /* FolderTableViewController.swift */; };
+		3C1A2DF027E4AAE20016B40E /* FolderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DEF27E4AAE20016B40E /* FolderList.swift */; };
+		3C1A2DF227E4AAF10016B40E /* NotionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DF127E4AAF10016B40E /* NotionList.swift */; };
+		3C1A2DF427E4C5D30016B40E /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DF327E4C5D30016B40E /* MainNavigationController.swift */; };
+		3C1A2DF627E4DD3C0016B40E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A2DF527E4DD3C0016B40E /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C1A2DCC27E482380016B40E /* NotionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1A2DCF27E482380016B40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C1A2DD127E482380016B40E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C1A2DD327E482380016B40E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C1A2DD327E482380016B40E /* NotionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionListViewController.swift; sourceTree = "<group>"; };
 		3C1A2DD627E482380016B40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C1A2DD827E4823E0016B40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1A2DDB27E4823E0016B40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1A2DDD27E4823E0016B40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1A2DE927E4A61F0016B40E /* NotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionViewController.swift; sourceTree = "<group>"; };
+		3C1A2DED27E4A8690016B40E /* FolderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderTableViewController.swift; sourceTree = "<group>"; };
+		3C1A2DEF27E4AAE20016B40E /* FolderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderList.swift; sourceTree = "<group>"; };
+		3C1A2DF127E4AAF10016B40E /* NotionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionList.swift; sourceTree = "<group>"; };
+		3C1A2DF327E4C5D30016B40E /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		3C1A2DF527E4DD3C0016B40E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +72,45 @@
 		3C1A2DCE27E482380016B40E /* NotionTest */ = {
 			isa = PBXGroup;
 			children = (
-				3C1A2DCF27E482380016B40E /* AppDelegate.swift */,
-				3C1A2DD127E482380016B40E /* SceneDelegate.swift */,
-				3C1A2DD327E482380016B40E /* ViewController.swift */,
+				3C1A2DE827E4A3F40016B40E /* Model */,
+				3C1A2DEC27E4A6760016B40E /* View */,
+				3C1A2DEB27E4A65A0016B40E /* Controller */,
 				3C1A2DD527E482380016B40E /* Main.storyboard */,
-				3C1A2DD827E4823E0016B40E /* Assets.xcassets */,
+				3C1A2DF527E4DD3C0016B40E /* StorageManager.swift */,
 				3C1A2DDA27E4823E0016B40E /* LaunchScreen.storyboard */,
+				3C1A2DCF27E482380016B40E /* AppDelegate.swift */,
+				3C1A2DD827E4823E0016B40E /* Assets.xcassets */,
 				3C1A2DDD27E4823E0016B40E /* Info.plist */,
 			);
 			path = NotionTest;
+			sourceTree = "<group>";
+		};
+		3C1A2DE827E4A3F40016B40E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A2DEF27E4AAE20016B40E /* FolderList.swift */,
+				3C1A2DF127E4AAF10016B40E /* NotionList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C1A2DEB27E4A65A0016B40E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A2DF327E4C5D30016B40E /* MainNavigationController.swift */,
+				3C1A2DED27E4A8690016B40E /* FolderTableViewController.swift */,
+				3C1A2DD327E482380016B40E /* NotionListViewController.swift */,
+				3C1A2DE927E4A61F0016B40E /* NotionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C1A2DEC27E4A6760016B40E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A2DD127E482380016B40E /* SceneDelegate.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1A2DD427E482380016B40E /* ViewController.swift in Sources */,
+				3C1A2DF227E4AAF10016B40E /* NotionList.swift in Sources */,
+				3C1A2DD427E482380016B40E /* NotionListViewController.swift in Sources */,
+				3C1A2DF427E4C5D30016B40E /* MainNavigationController.swift in Sources */,
 				3C1A2DD027E482380016B40E /* AppDelegate.swift in Sources */,
+				3C1A2DEE27E4A8690016B40E /* FolderTableViewController.swift in Sources */,
+				3C1A2DF627E4DD3C0016B40E /* StorageManager.swift in Sources */,
+				3C1A2DF027E4AAE20016B40E /* FolderList.swift in Sources */,
 				3C1A2DD227E482380016B40E /* SceneDelegate.swift in Sources */,
+				3C1A2DEA27E4A61F0016B40E /* NotionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
